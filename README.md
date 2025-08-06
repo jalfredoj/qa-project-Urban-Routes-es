@@ -19,3 +19,9 @@ Este proyecto utiliza Selenium WebDriver para automatizar pruebas funcionales en
 - **Estructura modular** con clases organizadas en el directorio `pages/`
 
 ---
+## 🔧 Refactor - Agosto 2025
+
+- Añadidos `assert` para validar elementos antes de interactuar.
+- Reemplazado `time.sleep()` por esperas explícitas donde fue posible.
+- Reorganización de carpetas: `utils` → `helpers`.
+- Mejor manejo de sliders, modales y campos dinámicos.
